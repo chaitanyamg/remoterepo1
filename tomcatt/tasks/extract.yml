@@ -2,5 +2,5 @@
 - name: extract
   unarchive:
    src: /tmp/apache-tomcat-8.5.50-deployer.tar.gz
-   dest: /opt/tmp
+   dest: /tmp
    remote_src: yes
