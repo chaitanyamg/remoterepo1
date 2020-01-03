@@ -3,7 +3,7 @@
   file:
    path: "{{ item }}"
    state: directory
-   user: tomcat
+   owner: tomcat
    recurse: yes
   loop:
    - /opt/tomcat/webapps/
