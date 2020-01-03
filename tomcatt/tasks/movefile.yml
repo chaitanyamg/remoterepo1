@@ -2,3 +2,4 @@
 - name: move file
   command:
    cmd: mv /tmp/apache-tomcat-8.5.50-deployer /opt/tomcat
+  ignore_errors:  yes
