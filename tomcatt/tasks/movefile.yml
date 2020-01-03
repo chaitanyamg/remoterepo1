@@ -1,0 +1,3 @@
+---
+- name: move file
+  command: sudo mv /tmp/apache-tomcat-8.5.50-deployer /opt/tomcat

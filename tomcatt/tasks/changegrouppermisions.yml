@@ -1,0 +1,15 @@
+---
+- name: change permisions
+  file:
+   path: /opt/tomcat
+   state: directory
+   group: tomcat
+   mode: g+r
+   recurse: yes
+- name: change permisions
+  file:
+   path: /opt/tomcat
+   state: directory
+   group: tomcat
+   mode: g+x
+   recurse: yes

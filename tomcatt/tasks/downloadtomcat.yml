@@ -1,0 +1,6 @@
+---
+- name: downlaod tomcat
+  get_url:
+   url:  http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50-deployer.tar.gz
+   dest: /tmp
+   

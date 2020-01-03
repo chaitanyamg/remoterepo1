@@ -1,0 +1,8 @@
+---
+- name: change permisions
+  file:
+   path: /opt/tomcat
+   state: directory
+   owner: tomcat
+   mode: g+x
+   recurse: yes

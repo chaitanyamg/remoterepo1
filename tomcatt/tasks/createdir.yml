@@ -1,0 +1,5 @@
+---
+- name: craete dir
+  file:
+   path: /opt/tomcat
+   state: directory

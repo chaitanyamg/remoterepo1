@@ -1,0 +1,12 @@
+---
+- name: change permisions
+  file:
+   path: "{{ item }}"
+   state: directory
+   user: tomcat
+   recurse: yes
+  loop:
+   - /opt/tomcat/webapps/
+   - /opt/tomcat/work 
+   - /opt/tomcat/temp
+   - /opt/tomcat/logs

@@ -1,2 +1,15 @@
 ---
 # tasks file for tomcatt
+- include_tasks: update.yml
+- include_tasks: downloadjava.yml
+- include_tasks: creategroup.yml
+- include_tasks: createuser.yml
+- include_tasks: downloadtomcat.yml
+- include_tasks: createdir.yml
+- include_tasks: extract.yml
+- include_tasks: movefile.yml
+- include_tasks: changegrouppermisions.yml
+- include_tasks: changeuserpermisions.yml
+- include_tasks: service.yml
+- include_tasks: deamon.yml 
+

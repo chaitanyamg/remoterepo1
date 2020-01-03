@@ -1,0 +1,5 @@
+---
+- name: download java
+  apt:
+   name: default-jdk
+   state: present
